@@ -1,0 +1,59 @@
+/* Your app styles here */
+.page {
+  /* background-color: #fff; */
+}
+
+.navbar {
+  /* background-color: #fff; */
+}
+
+.list ul {
+  background: #252525;
+  padding-top: 5px;
+}
+
+.list ul input:focus {
+  border-bottom: 2px solid #FDAB18;
+  transition: all 0.2s;
+}
+
+.list ul input {
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s;
+}
+
+.color-theme-cavaliers-yellow {
+  --f7-theme-color: #FDAB18;
+  --f7-theme-color-rgb: 253, 171, 24;
+  --f7-theme-color-shade: #FDAB18;
+  --f7-theme-color-tint: #FDAB18;
+}
+
+.color-theme-cavaliers-red {
+  --f7-theme-color: #5A192E;
+  --f7-theme-color-rgb: 90, 25, 46;
+  --f7-theme-color-shade: #5A192E;
+  --f7-theme-color-tint: #5A192E;
+}
+
+.navbar i {
+  color: #FDAB18;
+}
+
+.navbar span {
+  color: #FDAB18;
+}
+
+.list .icon-radio {
+
+}
+
+.block canvas {
+  background: #252525;
+  border-radius: 10px;
+  padding-top: 15px;
+}
+
+#chart-block {
+  margin-top: 15px;
+}
